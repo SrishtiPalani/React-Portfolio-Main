@@ -1,0 +1,57 @@
+.about {
+    padding-bottom: 14px;
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.picture {
+  width:55%;
+  object-fit:cover;
+  border-radius:50%;
+ 
+}
+
+.speaker {
+  width:20px;
+  background-color: white;
+}
+
+.about-info {
+    font-size: 20px;
+    
+}
+.info-name {
+    color: #8860d0;
+    font-size: 20px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif; 
+    /* font-family: 'Patrick Hand SC', cursive; */
+}
+
+a:hover {
+    color: #1890ff;
+  }  
+
+/* .card-link{
+    color: #8860d0;
+} */
+
+@media only screen and (max-width: 720px) {
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .picture {
+        height: 280px;
+    }
+    .about-info {
+        font-size: 20px;
+    }
+    .info-name {
+        font-size: 26px;
+    }
+}
