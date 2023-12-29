@@ -12,7 +12,7 @@
   width:55%;
   object-fit:cover;
   border-radius:50%;
- 
+  display: flex;
 }
 
 .speaker {
@@ -39,19 +39,19 @@ a:hover {
     color: #8860d0;
 } */
 
-@media only screen and (max-width: 720px) {
-    .about-top{
+/* @media only screen and (max-width: 720px) { */
+    /* .about-top{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .picture {
+    } */
+    /* .picture {
         height: 280px;
-    }
-    .about-info {
+    } */
+    /* .about-info {
         font-size: 20px;
     }
     .info-name {
         font-size: 26px;
-    }
-}
+    } */
+/* } */

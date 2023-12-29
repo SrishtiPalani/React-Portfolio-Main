@@ -24,7 +24,7 @@ function Mobile({ isOpen, setIsOpen}) {
         </a>
     </div>
     <div className="mobile-option">
-        <a href={"../../../assets/CV.pdf"} target = "_blank" rel="noreferrer">
+        <a href={"https://drive.google.com/file/d/1i1kc3CJ2BbVsafk1OfBZur1Y80zehusO/view?usp=sharing"} target = "_blank" rel="noreferrer">
         CV
         </a>
     </div>

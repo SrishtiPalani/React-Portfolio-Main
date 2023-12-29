@@ -1,31 +1,46 @@
-import React, { useState } from "react";
-import "./header.css";
-import Mobile from "./mobile";
-import Web from "./web/index";
+import React from "react";
 
+import {Menu} from 'antd';
+import 'antd/dist/antd.css';
 
 function Header() {
-  const [isOpen, setIsOpen]=useState(false);
   return (
-    <div className="header">
-      <div className="logo">
-        <img 
-            src={require("../../assets/SrishtiPalaniName.png")}
-            alt="Srishti Palani"
-            width="250"
-          /></div>
-      <div className="menu">
-        <div className="web-menu">
-          <Web />
-        </div>
-        <div className="mobile-menu">
-          <div onClick={()=>setIsOpen(!isOpen)}>
-            <i className="fi-rr-apps menu-icon"></i>
-          </div>
-          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
-        </div>
-      </div>
-    </div>
+    <>     
+    <a href="#projects">
+      <img 
+        src={require("../../assets/SrishtiPalaniName.png")}
+        alt="Srishti Palani"
+        width="250"
+       style={{marginTop: '20px', display: 'inline', justifyContent: 'center'}}
+      /></a>
+        <Menu mode="horizontal" defaultSelectedKeys={['about']} style={{justifyContent: 'flex-end'}}>
+          <Menu.Item key="about">
+            <a href="#projects" >
+              <strong>About</strong>
+            </a>
+          </Menu.Item>
+          <Menu.Item key="research">
+          <a href="#research">
+          <strong>Research </strong>
+          </a>
+          </Menu.Item>
+          <Menu.Item key="cv">
+              <a href={"https://drive.google.com/file/d/1i1kc3CJ2BbVsafk1OfBZur1Y80zehusO/view?usp=sharing"} target = "_blank" rel="noreferrer">
+                <strong>CV</strong>
+              </a>
+          </Menu.Item>
+          <Menu.Item key="teaching">
+            <a href="#teaching">
+            <strong>Teaching</strong>
+            </a>
+          </Menu.Item>
+          <Menu.Item key="dei">
+            <a href="#dei">
+            <strong>Diversity & Inclusion</strong>
+            </a>
+          </Menu.Item> 
+        </Menu>
+  </>
   );
 }
 
