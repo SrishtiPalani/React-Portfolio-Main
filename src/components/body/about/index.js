@@ -163,7 +163,7 @@ function About() {
     <h4> CoNotate: Suggesting Queries Based on Notes Promotes Knowledge Discovery | <strong> CHI 2021</strong>  </h4>
      <p style={{fontSize: '12px'}}>CoNotate offers query suggestions based on analyzing the searcher's notes and previous searches for patterns and gaps in information. This approach helped searchers issue significantly more queries, and discover more domain-specific terms than standard web search. This demonstrates how search can leverage user-generated content to help people get started when exploring complex, multi-faceted information spaces.</p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/pdf/10.1145/3411764.3445618" target="_blank"> PDF </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<PlaySquareOutlined/>} href="https://youtu.be/vH3htoAq0Ck?si=YMh34qWImy2p_SlY" target="_blank"> Demo </Button> <span></span> 
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<VideoCameraOutlined />} href="https://youtu.be/rNjWK91hucA?si=OBfVM5qvFNyImGb3" target="_blank"> Talk </Button> <span></span>
@@ -183,7 +183,7 @@ function About() {
     <h4> InterWeave: Presenting Suggestions in Context Scaffolds Information Search and Synthesis | <strong>UIST 2022</strong></h4> 
     <p style={{fontSize: '12px'}}> InterWeave mines the emergent structure of a searchers' notes and places contextual search guidance suggestions within this structure. This approach helped search actively, gather information, and connect newly discovered information to existing knowledge, compared to current search. This demonstrates how search can leverage user-generated content and structure to help people explore and make sense of complex information spaces.</p>
   
-    <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+    {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="#" target="_blank"> PDF </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<VideoCameraOutlined />} href="#" target="_blank"> Talk </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<GithubOutlined/>} href="https://github.com/creativecolab/IntegratedSearch.git" target="_blank"> Code </Button> <span></span>
@@ -203,7 +203,7 @@ function About() {
     {/* <h5> <a href="https://programs.sigchi.org/chi/2022/awards/honorable-mentions" style={{color: "#8a64d6", textAlign: "right"}}>🏆 Honorable Mention, Best Paper Award</a> </h5> */}
     <p style={{fontSize: '12px'}}> Sensecape is an interactive system designed to support complex information tasks with an LLM by enabling users to manage the complexity of information through multilevel abstraction and switch seamlessly between foraging and sensemaking. Sensecape empowers users to explore more topics and structure their knowledge hierarchically, thanks to the externalization of levels of abstraction. </p>
     <br />
-    <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+    {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/10.1145/3586183.3606756" target="_blank"> PDF </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<PlaySquareOutlined/>} href="https://youtu.be/MIfhunAwZew" target="_blank"> Demo </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<ShareAltOutlined />} onClick={myFunctionsensecape} target="_blank"> Cite </Button> <span></span>
@@ -223,7 +223,7 @@ function About() {
     {/* <h5>Srishti Palani, <a href="https://jason-ding.com" target="_blank" rel="noreferrer"> Zijian "Jason" Ding</a>, <a href="http://stevemacn.github.io" target="_blank" rel="noreferrer"> Stephen MacNeil</a>, <a href="https://spdow.ucsd.edu" target="_blank" rel="noreferrer">Steven P. Dow</a></h5> */}
    <p style={{fontSize: '12px'}}> Relatedly mines the existing structuring of knowledge on the Web to generate topic substructures and summaries. Scholars using Relatedly explored twice as many scientific papers and subtopics, producing more coherent and insightful topic outlines compared to standard scholarly search engines within the same time. </p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/pdf/10.1145/3544548.3580841" target="_blank"> PDF </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<PlaySquareOutlined/>} href="https://youtu.be/VvgRQm82Vlw?si=XmfjdzC0l1i_6RYk" target="_blank"> Demo </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<VideoCameraOutlined/>} href="https://www.youtube.com/watch?v=bJYviga1_d0" target="_blank"> Talk </Button> <span></span>
@@ -245,7 +245,7 @@ function About() {
     <p style={{fontSize: '12px'}}> To better align foundation model outputs to user intentions, the user can explicitly or implicitly refer to relevant contexts present in the many artifacts generated across their process. Relevant project context can be user-level (e.g., emotions, design preferences), project-level (e.g., project goal, to-do list), or external (e.g., shared files or information on the Web). 
  </p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
    <Button disabled size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="#" target="_blank"> PDF </Button> <span></span>
    </Card>
   </Col>
@@ -261,7 +261,7 @@ function About() {
     <h4> Adjacent Display of Relevant Discussion Helps Resolve Confusion | <strong> CSCW 2021 </strong></h4>
     <p style={{fontSize: '12px'}}> Adjacent Display of Relevant Discussion (ADRD) displays threaded comments in a panel adjacent to the video and dynamically updates the content of the panel based on when a video is paused. In a between-subjects lab study, ADRD helped participants resolve confusion points, skim and read comments, and encouraged video interaction.</p>
    
-    <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+    {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/pdf/10.1145/3449217" target="_blank"> PDF </Button> <span></span>   
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<ShareAltOutlined />} onClick={myFunctionADRD} target="_blank"> Cite </Button> <span></span>
     </Card>
@@ -282,7 +282,7 @@ function About() {
     {/* <h5>Srishti Palani, <a href="https://jason-ding.com" target="_blank" rel="noreferrer"> Zijian "Jason" Ding</a>, <a href="http://stevemacn.github.io" target="_blank" rel="noreferrer"> Stephen MacNeil</a>, <a href="https://spdow.ucsd.edu" target="_blank" rel="noreferrer">Steven P. Dow</a></h5> */}
    <p style={{fontSize: '12px'}}>To understand how web search affects early-stage design, we collected and analyzed search log and self-report data from 34 students in a project-based design class. Analysis found active and diverse search behavior (more frequent and diverse queries, and opening more webpages) correlated with more progress in early-stage design (gathering more facts, articulating insights, and developing concrete framings of problems).</p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/pdf/10.1145/3406522.3446046" target="_blank"> PDF </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<VideoCameraOutlined />} href="https://docs.google.com/presentation/d/1YF1XVExGH6BiIaxkvvldGSIC_-iVCbE9JzsTcQELrFo/edit?usp=sharing" target="_blank"> Slides </Button> <span></span>
     <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<ShareAltOutlined />} onClick={myFunctionActiveSearch} target="_blank"> Cite </Button> <span></span>
@@ -301,7 +301,7 @@ function About() {
     <h4> Evolution of User Context During Complex Information Workflows </h4> 
     <p style={{fontSize: '12px'}}> In a longitudinal study observing 15 knowledge workers (startup founders, researchers, policy advisors, journalists, novelists), we collected and analyzed application logs from search and work documents over the course of 1-6 months. Participants exhibited Distributed Cognition by searching the Web throughout all stages of their work, from project definition to ideation and delivery, revealing rich contextual information encoded in artifacts along their iterative creative journeys.</p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
   <Button disabled size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="#" target="_blank"> PDF </Button> <span></span>
     </Card>
     </Col>
@@ -318,7 +318,7 @@ function About() {
     <h5> <a href="https://programs.sigchi.org/chi/2022/awards/honorable-mentions" style={{color: "#8a64d6", textAlign: "right"}}>🏆 Honorable Mention, Best Paper Award</a> </h5>
     <p style={{fontSize: '12px'}}> Analyzing 23 videos, 13 interviews, and 105 survey responses, we derived a framework, revealing practitioners prioritize adopting tools based on functionality, integration with workflow, performance, user interface, learning support, costs, and emotional connection, with personal recommendations being the main discovery channel. The framework aims to foster reflection and collaboration among creativity support stakeholders.</p>
    
-   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span>
+   {/* <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FolderOutlined/>} href="#" target="_blank"> Project </Button> <span></span> */}
   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<FilePdfOutlined/>} href="https://dl.acm.org/doi/pdf/10.1145/3491102.3501933" target="_blank"> PDF </Button> <span></span>
   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<VideoCameraOutlined/>} href="https://www.youtube.com/watch?v=zx7_HakKcA8" target="_blank"> Talk </Button> <span></span>
   <Button size='small' style={{borderRadius:'5px', fontSize: '12px'}} icon={<ShareAltOutlined />} onClick={myFunctionpractitioner} target="_blank"> Cite </Button> <span></span>
