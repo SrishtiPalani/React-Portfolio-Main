@@ -13,7 +13,7 @@ function Skills() {
     <span className="info-name"> <strong>Teaching</strong> </span>
     <Row gutter={16}>
     
-    <Col span={8}>
+    <Col xs={24} xl={8}>
     <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', borderRadius: '14px', padding: '10px', alignItems: 'center' }}
               src={require("../../../assets/prototyping.jpg")}
               alt="study setup and screenshot of logs captured"
@@ -28,7 +28,7 @@ function Skills() {
       </Card>
     </Col>
 
-    <Col span={8}>
+    <Col xs={24} xl={8}>
     <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', borderRadius: '14px', padding: '10px' }}
               src={require("../../../assets/GenAICourse.png")}
               alt="a person actively searching many different webpages"
@@ -43,7 +43,7 @@ function Skills() {
   </Col>
    
    
-    <Col span={8}>
+    <Col xs={24} xl={8}>
     <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', padding: '10px' }}
               src={require("../../../assets/cogsci.png")}
               alt="practitioner value framework"
