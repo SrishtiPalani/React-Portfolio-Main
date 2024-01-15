@@ -8,7 +8,7 @@ import Footer from "../footer/index";
 function Home() {
   return ( <div className="home">
     <div>
-        <Header />
+        <Header style={{position: 'sticky'}}> </Header>
     </div>
     <div>
         <Body />

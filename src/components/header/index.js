@@ -6,13 +6,6 @@ import 'antd/dist/antd.css';
 function Header() {
   return (
     <>     
-    <a href="#projects">
-      <img 
-        src={require("../../assets/SrishtiPalaniName.png")}
-        alt="Srishti Palani"
-        width="250"
-       style={{marginTop: '20px', display: 'inline', justifyContent: 'center'}}
-      /></a>
         <Menu mode="horizontal" defaultSelectedKeys={['about']} style={{justifyContent: 'flex-end'}}>
           <Menu.Item key="about">
             <a href="#projects" >
@@ -25,7 +18,7 @@ function Header() {
           </a>
           </Menu.Item>
           <Menu.Item key="cv">
-              <a href={"https://drive.google.com/file/d/1i1kc3CJ2BbVsafk1OfBZur1Y80zehusO/view?usp=sharing"} target = "_blank" rel="noreferrer">
+              <a href={"https://drive.google.com/file/d/1Dov5BSCd-JB3SbTwdH2_Wq2ciTKPr1ba/view?usp=sharing"} target = "_blank" rel="noreferrer">
                 <strong>CV</strong>
               </a>
           </Menu.Item>

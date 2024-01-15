@@ -40,8 +40,9 @@ function Work() {
     </Carousel>
 
     <Card
+    hoverable={true}
       title="Bridging the gender gap in STEM"
-      style={{marginTop: 16}}>
+      style={{marginTop: 16, borderRadius: '14px'}}>
       <p><strong>Board Member, <a href="https://gradwic.ucsd.edu/">UCSD Graduate Women in Computing</a></strong> 2019 - 2022</p>
       <ul>
       <li> Organized two conferences for local schools, and three speaker series for undergraduates and
@@ -74,9 +75,10 @@ hackathons </li>
 </Card>
 
       <Card
+      hoverable={true}
       title="Community Building and Service"
       // extra={<a href="#">More</a>}
-      style={{marginTop: 16}}>
+      style={{marginTop: 16, borderRadius: '14px'}}>
     <p><strong><a href="https://blog.mtholyoke.edu/mhcforever/2015/02/05/building-community-fact-5-harriet-newhall-center">Harriet Newhall Fellow, MHC Office of Admissions</a></strong>, 2017-2018</p>
       <p><strong><a href="https://www.mtholyoke.edu/directory/departments-offices-centers/residential-life">Senior Community Advisor, MHC Office of Residential Life</a></strong>, 2015-2018</p>
       <ul>

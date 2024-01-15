@@ -1,7 +1,7 @@
 import React from "react";
 import "./body.css";
 import About from "./about/index";
-import Projects from "./projects/index";
+// import Projects from "./projects/index";
 import Skills from "./skills/index";
 import Work from "./work/index";
 
@@ -12,9 +12,6 @@ function Body() {
     <section id="about">
       <About />
     </section>
-     <section id="research">
-      <Projects />
-    </section> 
    <section id="teaching">
       <Skills />
     </section> 
