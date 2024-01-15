@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.a41ecb13.css",
-    "main.js": "/static/js/main.a9810794.js",
-    "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
+    "main.css": "/static/css/main.b178208b.css",
+    "main.js": "/static/js/main.770d09ab.js",
+    "static/js/787.861fdc3f.chunk.js": "/static/js/787.861fdc3f.chunk.js",
     "static/media/K_12.png": "/static/media/K_12.4e0b07fa675f1635c885.png",
     "static/media/k_12_2.png": "/static/media/k_12_2.ba73725f429f818028b2.png",
     "static/media/K_12_4.png": "/static/media/K_12_4.72470c666381cbe01d90.png",
@@ -23,15 +23,15 @@
     "static/media/GIT.jpg": "/static/media/GIT.3c9b18b0c20c550f5fe0.jpg",
     "static/media/PractitionerValueFramework.jpeg": "/static/media/PractitionerValueFramework.330e723402332fd1413f.jpeg",
     "static/media/prototyping.jpg": "/static/media/prototyping.aa865b5464d5088d5699.jpg",
-    "static/media/SrishtiPalani.jpeg": "/static/media/SrishtiPalani.7e07d1b7fcce4ef63413.jpeg",
     "static/media/SrishtiPalaniPronunciation.mp3": "/static/media/SrishtiPalaniPronunciation.bb1cfbc3b9b41c2297a0.mp3",
+    "static/media/srishti-palani.jpg": "/static/media/srishti-palani.ca6ad0c6b0c51bd24d96.jpg",
     "index.html": "/index.html",
-    "main.a41ecb13.css.map": "/static/css/main.a41ecb13.css.map",
-    "main.a9810794.js.map": "/static/js/main.a9810794.js.map",
-    "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
+    "main.b178208b.css.map": "/static/css/main.b178208b.css.map",
+    "main.770d09ab.js.map": "/static/js/main.770d09ab.js.map",
+    "787.861fdc3f.chunk.js.map": "/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a41ecb13.css",
-    "static/js/main.a9810794.js"
+    "static/css/main.b178208b.css",
+    "static/js/main.770d09ab.js"
   ]
 }
