@@ -69,7 +69,7 @@ function About() {
             <img 
               // to make the image responsive
               // srcSet={`${imageSmall} 320w, ${imageMedium} 680w, ${imageLarge}   960w, ${imageXLarge} 1980w`}
-              src={require("../../../assets/srishti-palani.jpg")}
+              src={require("../../../assets/SrishtiPalani.jpeg")}
               alt="Srishti Palani -- PhD Researcher, UC San Diego"
               className="picture"
             />
