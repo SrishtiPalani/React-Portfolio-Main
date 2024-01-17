@@ -41,8 +41,9 @@ function Work() {
 
     <Card
     hoverable={true}
-      title="Bridging the gender gap in STEM"
+      // title="Bridging the gender gap in STEM"
       style={{marginTop: 16, borderRadius: '14px'}}>
+      <h2><strong> Bridging the gender gap in STEM</strong></h2>
       <p><strong>Board Member, <a href="https://gradwic.ucsd.edu/">UCSD Graduate Women in Computing</a></strong> 2019 - 2022</p>
       <ul>
       <li> Organized two conferences for local schools, and three speaker series for undergraduates and
@@ -76,10 +77,17 @@ hackathons </li>
 
       <Card
       hoverable={true}
-      title="Community Building and Service"
+      // title="Community Building and Service"
       // extra={<a href="#">More</a>}
       style={{marginTop: 16, borderRadius: '14px'}}>
-    <p><strong><a href="https://blog.mtholyoke.edu/mhcforever/2015/02/05/building-community-fact-5-harriet-newhall-center">Harriet Newhall Fellow, MHC Office of Admissions</a></strong>, 2017-2018</p>
+      <h2><strong>Community Building and Service</strong></h2>
+      <p> <strong>ACM CHI Late Breaking Work, Program Committee Member</strong>, 2024</p>
+      <p> <strong>ACM UIST Posters, Program Committee Member</strong></p>
+      <p> <strong>Reviewer</strong>, ACM CHI (2021-24), Creativity and Cognition (2021-23), DIS (2023), CSCW (2022) </p>
+      <p> <strong>Student Volunteer</strong>, ACM CHI (2020-22), IUI (2021), CSCW (2021), UIST (2021)</p>
+      <p> <strong>Co-Organizer, <a href="https://designlab.ucsd.edu/events-all/design-at-large/">Design@Large Seminar: Designing Human-AI Systems for Creativity and Beyond</a></strong>, Winter 2023</p>
+      <p><strong>Website Chair, Panelist, Co-Organizer, PhD Open House, UC San Diego Cognitive Science </strong>, 2019-2023</p>
+      <p><strong><a href="https://blog.mtholyoke.edu/mhcforever/2015/02/05/building-community-fact-5-harriet-newhall-center">Harriet Newhall Fellow, MHC Office of Admissions</a></strong>, 2017-2018</p>
       <p><strong><a href="https://www.mtholyoke.edu/directory/departments-offices-centers/residential-life">Senior Community Advisor, MHC Office of Residential Life</a></strong>, 2015-2018</p>
       <ul>
         <li> Fostered an inclusive and friendly community in the largest community on campus of 200+

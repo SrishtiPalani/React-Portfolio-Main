@@ -21,7 +21,7 @@ function Skills() {
             />
     } style={{ borderRadius: '14px' }}>
     <h4> <strong> <a href="https://design100.ucsd.edu"> DSGN100 : Prototyping</a></strong> </h4> 
-    <h5><strong>Instructor of Record, Summer 2023</strong></h5>
+    <h4><strong>Instructor of Record, Summer 2023</strong></h4>
   
     <p style={{fontSize: '12px'}}> Introduction to the basic practices of interaction design through a focus on visual, physical, and digital prototyping. We follow a human-centered design process that includes research, concept generation, prototyping, testing, and refinement. Students must work effectively as individuals and in small teams to create visual designs, information systems, physical devices, and other interactive experiences. Required for Design Minor and Major.</p>
    
@@ -44,7 +44,7 @@ function Skills() {
    
    
     <Col xs={24} xl={8}>
-    <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', padding: '10px' }}
+    <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', padding: '10px', borderRadius: '14px' }}
               src={require("../../../assets/cogsci.png")}
               alt="practitioner value framework"
               className="picture"
@@ -66,9 +66,10 @@ technology for remote learning; and organize discussion roundtables to share exp
 
     <Card
     hoverable={true}
-      title="Computer Science Courses"
+      // title="Computer Science Courses"
       // extra={<a href="#">More</a>}
       style={{marginTop: 16, borderRadius: '14px'}}>
+      <h2><strong>Computer Science Courses</strong></h2>
       <p>CS 334: Intelligent Information Retrieval with <a href="https://www.mtholyoke.edu/directory/faculty-staff/lisa-ballesteros">Prof. Lisa Ballasteros</a>, TA, Mount Holyoke College, Spring 2018</p>
       <p>CS 343: Programming Language Design with <a href="https://vbarr4.github.io/">Prof. Valerie Barr</a>, TA, Mount Holyoke College, Fall 2017</p>
       <p>CS 101: Object Oriented Programming with <a href="https://www.mtholyoke.edu/directory/faculty-staff/audrey-st-john">Prof. Audrey St. John</a>, TA, Mount Holyoke College, Fall 2016</p>
@@ -76,9 +77,10 @@ technology for remote learning; and organize discussion roundtables to share exp
 
     <Card
     hoverable={true}
-      title="Human-Centered Design Courses"
+      // title="Human-Centered Design Courses"
       // extra={<a href="#">More</a>}
       style={{marginTop: 16, borderRadius: '14px'}}>
+    <h2><strong>Human-Centered Design Courses</strong></h2>
     <p ><a href="https://startupstudio.ucsd.edu/">COGS122: Startup Studio</a> with <a href="https://spdow.ucsd.edu/">Prof. Steven Dow</a>, TA, UCSD, Fall 2020</p>
       <p><a href="https://civicdesign.ucsd.edu/">DSGN 160: Civic Design</a> with <a href="https://spdow.ucsd.edu/">Prof. Steven Dow</a>, TA, UCSD, Winter 2020</p>
       <p><a href="https://socialcomputing.ucsd.edu/">COGS 123: Social Computing</a> with <a href="https://spdow.ucsd.edu/">Prof. Steven Dow</a>, TA, UCSD, Fall 2019</p>
