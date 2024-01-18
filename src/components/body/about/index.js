@@ -120,7 +120,7 @@ function About() {
     <></>
     <Divider />
     
-    <Row justify={{'xs': 'center', 'xl': 'start'}} align={{'xs': 'middle', 'xl': 'top'}} gutter={24}>
+    <Row justify={{'xs': 'center', 'xl': 'start'}} align={{'xs': 'middle', 'xl': 'top'}} gutter={[16, 16]}>
     {/* <Card 
     style={{ 
       borderBottomStyle: 'inset',

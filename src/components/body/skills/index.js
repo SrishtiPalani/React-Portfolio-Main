@@ -11,7 +11,7 @@ function Skills() {
     <div className="teaching">
     <Divider />
     <span className="info-name"> <strong>Teaching</strong> </span>
-    <Row gutter={16}>
+    <Row gutter={[16, 16]}>
     
     <Col xs={24} xl={8}>
     <Card hoverable={true} size="small" bordered={true}  cover={<img style={{ width: '100%', borderRadius: '14px', padding: '10px', alignItems: 'center' }}
