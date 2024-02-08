@@ -158,16 +158,20 @@ function About() {
       <Col xs={24} xl={8} style={{fontSize: '12px'}}>
       
       <h3 className="info-name"> <strong> Talk Schedule </strong> </h3>
-        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited Talk at <a href="https://www.mpi-sws.org"> Max Planck Institute for Software Systems, Germany</a>
+        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>March 2024</Tag>Invited Talk at <a href="https://www.mpi-sws.org"> Max Planck Institute for Software Systems, Germany</a>
         <br /> <br />
-        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited Talk at <a href="https://www.cics.umass.edu"> Computer Science, UMass Amherst</a>
+        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>March 2024</Tag>Invited Talk at <a href="https://www.cics.umass.edu"> CS @ UMass Amherst</a>
         <br /> <br />
-        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited Talk at <a href="https://cogsci.ucsd.edu/research/Cognition%20At%20the%20Shore.html"> Cognition at Shore Lecture</a>
+        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited Talk at <a href="https://ai.google/discover/research/"> Google AI Research </a>
+        <br /> <br />
+        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited Talk at <a href="https://www.microsoft.com/en-us/research/"> Microsoft Research, Redmond </a>
+        <br /> <br />
+        <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Feb 2024</Tag>Invited to present <a href="https://cogsci.ucsd.edu/research/Cognition%20At%20the%20Shore.html"> Cognition at Shore Lecture</a>
         <br /> <br />
         <Tag color="purple" style={{borderRadius: '5px', fontSize: '11px'}}>Jan 2024</Tag>Invited Talk at <a href="https://www.tableau.com/research"> Tableau Research</a>
         <br /> <br />
-        <Tag  style={{borderRadius: '5px', fontSize: '11px'}}>Dec 2023</Tag>Invited Talk at <a href="https://computerscience.emory.edu/index.html" style={{color: 'gray'}}> Emory University</a>, Atlanta
-        <br /> <br />
+        {/* <Tag  style={{borderRadius: '5px', fontSize: '11px'}}>Dec 2023</Tag>Invited Talk at <a href="https://computerscience.emory.edu/index.html" style={{color: 'gray'}}> Emory University</a>, Atlanta
+        <br /> <br /> */}
         <Tag style={{borderRadius: '5px', fontSize: '11px'}}>Dec 2023</Tag>Invited Talk at <a href="https://cse.ucsd.edu" style={{color: 'gray'}}> Computer Science and Engineering</a>, UC San Diego
         <br /> <br />
         <Tag  style={{borderRadius: '5px', fontSize: '11px'}}>Dec 2023</Tag>Invited Talk at <a href="https://courses.ucsd.edu/coursemain.aspx?section=318365" style={{color: 'gray'}}> COGS 100: Introduction to Cognitive Science</a>, UC San Diego
