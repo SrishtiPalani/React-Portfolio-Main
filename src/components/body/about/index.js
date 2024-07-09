@@ -109,9 +109,9 @@ function About() {
 
     
       <Col xs={14} xl={10} justify={{'xs': 'center', 'xl': 'start'}} align={{'xs': 'middle', 'xl': 'top'}}>
-          <h3 style={{fontSize: '18px'}}> Human-AI Interaction Researcher 
-            <br />PhD Candidate, <a href="https://designlab.ucsd.edu" target="_blank" rel="noreferrer" style={{color: '#8860d0'}}> Design Lab</a>
-            <br /><a href="https://ucsd.edu" target="_blank" rel="noreferrer" style={{color: '#8860d0'}}>University of California, San Diego</a>
+          <h3 style={{fontSize: '18px'}}>Senior Research Scientist, <a href="https://www.tableau.com/research" target="_blank" rel="noreferrer" style={{color: '#8860d0'}}>Tableau Research</a>
+            <br /><a href="https://www.salesforce.com" target="_blank" rel="noreferrer" style={{color: '#8860d0'}}>Salesforce</a>
+            {/* <br /><a href="https://ucsd.edu" target="_blank" rel="noreferrer" style={{color: '#8860d0'}}>Salesforce</a> */}
           </h3>
       </Col>
     </Row>
@@ -129,12 +129,6 @@ function About() {
       borderTopStyle: 'hidden',
       }}> */}
       <Col xs={24} xl={16}>
-      <Card bordered size='small' style={{fontSize: '15px',  borderRadius: '10px', boxShadow: '5px 5px #f9f0ff'}}> 
-          🚀 <strong> News: I'm looking for Academic and Industry Research roles this year!</strong> Please reach out if you think there is a good fit. I would be happy to share more about my Research Agenda, Teaching Philosophy, and Diversity and Inclusion Initiatives.
-          {/* <br /> */}
-          {/*  */}
-      </Card>
-      <br />
           <p style={{ fontSize: '15px'}}>
           I research in the areas of Human-AI Interaction, Cognitive Science, Intelligent Information Retrieval,and Human-Centered AI. I conduct mixed-methods studies to deepen our understanding of how people search, synthesize, and create using large amounts of disparate information on the Web and using Large Language Models. Based on this understanding of user behaviors and challenges, I design and develop interactive intelligent systems that augment human cognitive abilities, particularly discovery, sensemaking and creativity! 
           <br /> <br /> 
